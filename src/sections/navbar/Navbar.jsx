@@ -1,16 +1,26 @@
-import  style from "./style.module.css"
+import style from "./style.module.css";
 
-function Navbar(){
+function Navbar() {
+  return (
+    <header className={style.navbar}>
+      <div className={style.container}>
+        <div className={style.navlimite}>
+          <h1 className={style.marca}>CoolZap</h1>
 
-return(
-
-<div>
-    <h1 className={style.letra}>
-        Coolzap
-    </h1>
-</div>
-
-
-);
+          <ul className={style.navlista}>
+            <a className={style.links} href="#inicio">
+              Incio
+            </a>
+            <a className={style.links} href="#tienda">
+              Tienda
+            </a>
+            <a className={style.links} href="#contacto">
+              Contacto
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+  );
 }
 export default Navbar;
