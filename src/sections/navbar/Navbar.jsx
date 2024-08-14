@@ -6,7 +6,7 @@ return(
 
 <div>
     <h1 className={style.letra}>
-        Hola padreee
+        Coolzap
     </h1>
 </div>
 
