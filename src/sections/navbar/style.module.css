@@ -44,3 +44,6 @@
   font-size: 25px;
   text-decoration: none;
 }
+.links:hover{
+  filter: drop-shadow(0 0 10px #eb0b0baa);
+}
