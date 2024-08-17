@@ -4,7 +4,7 @@ function Hero(){
 return(
     <div className={style.container}>
     <div>
-        <img className={style.imagen1 }src="./public/imagenes/zaparoja.jpg" alt="" />
+        <img className={style.imagen1 }src="./imagenes/zaparoja.jpg"/>
         <div>
         <h1 className={style.holapedro}>HOLA  PEDRO</h1>
         </div>
