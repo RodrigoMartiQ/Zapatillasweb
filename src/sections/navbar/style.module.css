@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .navlimite {
   max-width: var(--maxwidth);
@@ -23,6 +24,7 @@
   align-items: center;
 }
 .marca {
+  
   position: relative;
   font-size: 20px;
   color: #000000;
