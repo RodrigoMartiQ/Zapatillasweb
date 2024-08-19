@@ -27,10 +27,34 @@
   z-index: -1;
 }
 .texto {
+  gap: 15px;
   height: auto;
   width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   margin: 50px;
+}
+.titulo {
+  max-width: 100%;
+  font-size: 50px;
+}
+.intermedio {
+  display: contents;
+  font-size: 70px;
+}
+.parrafo {
+  font-size: 20px;
+}
+.boton {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  height: 60px;
+  width: 170px;
+  color: white;
+  font-size: 21px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
