@@ -1,4 +1,3 @@
-import Carousel from "../../components/carousel/Carousel";
 import style from "./style.module.css";
 
 
@@ -6,9 +5,7 @@ function Hero() {
   return (
     <div className={style.container}>
       <div className={style.todo}>
-        <div className={style.imagen1}>
-          <Carousel/>
-          </div>
+        <img className={style.imagen1} src="/src/assets/imagenes/zapa2.jpg" />
 
         <div className={style.texto}>
           <h1 className={style.titulo}>
