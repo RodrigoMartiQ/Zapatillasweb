@@ -1,14 +1,18 @@
+import Carousel from "../../components/carousel/Carousel";
 import style from "./style.module.css";
+
 
 function Hero() {
   return (
     <div className={style.container}>
       <div className={style.todo}>
-        <img className={style.imagen1} src="/src/assets/imagenes/zapablanca.jpg" />
+        <div className={style.imagen1}>
+          <Carousel/>
+          </div>
 
         <div className={style.texto}>
           <h1 className={style.titulo}>
-            RECIEN <h2 className={style.intermedio}>LLEGADOS</h2> DE NIKE{" "}
+            NUEVOS <h2 className={style.intermedio}>MODELOS</h2> DE NIKE{" "}
           </h1>
 
           <p className={style.parrafo}>
