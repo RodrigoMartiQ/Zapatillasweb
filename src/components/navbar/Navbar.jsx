@@ -5,8 +5,10 @@ function Navbar() {
     <header className={style.navbar}>
       <div className={style.container}>
         <div className={style.navlimite}>
-          <div className={style.marca}>
-            <h1>CoolZap.</h1>
+        <div>
+          <a className={style.marca} href="#hero">
+          CoolZap.
+              </a>
           </div>
 
           <div className={style.centro}>

@@ -5,7 +5,7 @@ function Carousel({ images }) {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const nextImage = () => {
-    setSelectedImage((selectedImage + 1) % images.length); /* el % es para que cuando llegue al final vuelva al principio */
+    setSelectedImage((selectedImage + 1) % images.length);   /* el % es para que cuando llegue al final vuelva al principio */
   };
 
   const prevImage = () => {
