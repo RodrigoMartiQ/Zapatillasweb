@@ -16,7 +16,7 @@ function Carousel({ images }) {
 
     <div className={style.carousel}>
       <button className={style.navButton} onClick={prevImage}>
-        hola
+      <i class="bi bi-chevron-left"></i>
       </button>
 
       <img
@@ -25,7 +25,7 @@ function Carousel({ images }) {
       />
 
       <button className={style.navButton} onClick={nextImage}>
-        hola
+      <i class="bi bi-chevron-right"></i>
       </button>
 
     </div>

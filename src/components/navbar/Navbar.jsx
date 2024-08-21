@@ -28,13 +28,13 @@ function Navbar() {
           <div className={style.derecha}>
             <ul className={style.navlista}>
               <a className={style.links} href="#lupa">
-                L
+              <i class="bi bi-search"></i>
               </a>
               <a className={style.links} href="#favoritos">
-                F
+              <i class="bi bi-heart"></i>
               </a>
               <a className={style.links} href="#carritos">
-                C
+              <i class="bi bi-cart"></i>
               </a>
             </ul>
           </div>
