@@ -13,7 +13,7 @@ function Trending() {
         </div>
 
         <div className={style.zapascard}>
-          <BurguerCard title="Bacon Cheese" img="" price="100" />
+          <BurguerCard title="Air Jordan Retro" img="./public/cards/card1.png" price="900" />
           <BurguerCard title="Bacon cheese Double" img="" price="150" />
           <BurguerCard title="Quarter" img="" price="200" />
           <BurguerCard title="Angus Mushroom" img="" price="250" />
