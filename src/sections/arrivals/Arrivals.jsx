@@ -14,24 +14,24 @@ function Arrivals() {
 
         <div className={style.zapas}>
           <BurguerCard
-            title="Air Jordan Retro"
+            title="Nike P-6000"
             img="./public/imagenes/cards/card5.png"
-            price="429.52"
+            price="175.00"
           />
           <BurguerCard
-            title="Puma XZ Retro"
+            title="Nike Dunk"
             img="./public/imagenes/cards/card6.png"
-            price="289.44"
+            price="209.99"
           />
           <BurguerCard
-            title="Nike Viper 23"
+            title="Nike Air Force"
             img="./public/imagenes/cards/card7.png"
-            price="222.88"
+            price="120.99"
           />
           <BurguerCard
-            title="Nike Shox TL"
+            title="Jordan Spizike"
             img="./public/imagenes/cards/card8.png"
-            price="449.52"
+            price="124,99"
           />
         </div>
       </div>

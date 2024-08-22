@@ -19,9 +19,9 @@ function Trending() {
             price="230.52"
           />
           <BurguerCard
-            title="Puma XZ Retro"
+            title="Nike Air Max Plus"
             img="./public/imagenes/cards/card2.png"
-            price="329.12"
+            price="129.99"
           />
           <BurguerCard
             title="Nike Viper 23"
