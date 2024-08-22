@@ -33,6 +33,26 @@ function Arrivals() {
             img="./public/imagenes/cards/card8.png"
             price="124,99"
           />
+          <BurguerCard
+            title="Nike Pegasus Trail"
+            img="./public/imagenes/cards/card9.png"
+            price="139.99"
+          />
+          <BurguerCard
+            title="Clogposite"
+            img="./public/imagenes/cards/card10.png"
+            price="139.99"
+          />
+          <BurguerCard
+            title="Nike Air VaporMax"
+            img="./public/imagenes/cards/card11.png"
+            price="157.49"
+          />
+          <BurguerCard
+            title="Nike Go FlyEase"
+            img="./public/imagenes/cards/card12.png"
+            price="129.99"
+          />
         </div>
       </div>
     </div>
