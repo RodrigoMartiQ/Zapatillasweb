@@ -3,9 +3,9 @@ import style from "./style.module.css";
 
 function Hero() {
   const images = [
-    "/src/assets/imagenes/zapa1.jpg",
-    "/src/assets/imagenes/zapa2.jpg",
-    "/src/assets/imagenes/zapa3.jpg",
+    "/public/imagenes/zapa1.jpg",
+    "/public/imagenes/zapa2.jpg",
+    "/public/imagenes/zapa3.jpg",
   ];
 
   return (
