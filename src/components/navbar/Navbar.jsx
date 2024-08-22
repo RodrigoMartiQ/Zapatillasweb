@@ -2,11 +2,11 @@ import style from "./style.module.css";
 
 function Navbar() {
   return (
-    <header className={style.navbar}>
+    <header id="nav" className={style.navbar}>
       <div className={style.container}>
         <div className={style.navlimite}>
         <div>
-          <a className={style.marca} href="#hero">
+          <a className={style.marca} href="#nav">
           CoolZap.
               </a>
           </div>

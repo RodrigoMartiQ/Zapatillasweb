@@ -9,7 +9,7 @@ function Hero() {
   ];
 
   return (
-    <div className={style.container}>
+    <div  className={style.container}>
       <div className={style.todo}>
         <Carousel images={images} />
 
