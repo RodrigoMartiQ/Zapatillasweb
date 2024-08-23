@@ -23,6 +23,7 @@
     align-items: center;
   }
   .info {
+    gap: 10px;
     height: auto;
     width: auto;
     display: flex;
