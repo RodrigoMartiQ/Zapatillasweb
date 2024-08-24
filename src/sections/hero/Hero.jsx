@@ -9,8 +9,8 @@ function Hero() {
   ];
 
   return (
-    <div  className={style.container}>
-      <div className={style.todo}>
+    <div id="nav"  className={style.container}>
+      <div id="inicio" className={style.todo}>
         <Carousel images={images} />
 
         <div className={style.texto}>

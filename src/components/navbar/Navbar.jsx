@@ -2,8 +2,8 @@ import style from "./style.module.css";
 
 function Navbar() {
   return (
-    <header id="nav" className={style.navbar}>
-      <div className={style.container}>
+    <header  className={style.navbar}>
+      <div   className={style.container}>
         <div className={style.navlimite}>
         <div>
           <a className={style.marca} href="#nav">
