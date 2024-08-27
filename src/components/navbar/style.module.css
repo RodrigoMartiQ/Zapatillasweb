@@ -58,3 +58,8 @@
 .links:hover {
   filter: drop-shadow(0 0 5px #000000aa);
 }
+@media (max-width: 1750px) {
+  .container {
+    padding: 0px 20px; /* poner en todos */
+  }
+}

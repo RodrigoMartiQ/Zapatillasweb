@@ -13,15 +13,6 @@
     justify-content: space-around;
     
   }
-  .footlimite {
-    max-width: var(--maxwidth);
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .info {
     gap: 10px;
     height: auto;
@@ -38,9 +29,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #000000;
-    
+    color: #000000; 
   }
+  @media (max-width: 1750px) {
+    .container {
+      padding: 0px 20px; /* poner en todos */
+    }
+  }
+  
   
  
 

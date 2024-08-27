@@ -39,3 +39,8 @@
     justify-content: center;
     gap: 133px;
 }
+@media (max-width: 1750px) {
+    .container {
+      padding: 0px 20px; /* poner en todos */
+    }
+  }

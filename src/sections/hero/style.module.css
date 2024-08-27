@@ -56,3 +56,51 @@
   background-color: #252525;
  
 }
+@media (max-width: 1750px) {
+  .container {
+    padding: 0px 20px; /* poner en todos */
+  }
+}
+@media (max-width: 750px) {
+  .texto{
+    text-align: center;
+    display: flex;
+    align-items: center;
+   width: 450px;
+  }
+  .todo{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+@media (max-width: 580px) {
+  .texto{
+    background-color: rgba(255, 255, 255, 0.144);
+   width: 350px;
+  }
+  .titulo{
+    font-size: 20px;
+  }
+  .intermedio {
+    
+    font-size: 30px;
+  }
+  .parrafo {
+   
+    font-size: 17px;
+  }
+  .boton {
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+   
+  }
+}
+@media (max-width: 460px) {
+  .texto{
+   width: 240px;
+  }
+}
