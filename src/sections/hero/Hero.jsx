@@ -10,7 +10,7 @@ function Hero() {
 
   return (
     <div id="nav"  className={style.container}>
-      <div id="inicio" className={style.todo}>
+      <div className={style.todo}>
         <Carousel images={images} />
 
         <div className={style.texto}>
@@ -22,9 +22,11 @@ function Hero() {
             Incluyendo la nueva convinacion de colores, descubre lo último de
             Nike con CoolZap
           </p>
-          <a className={style.boton} href="#tienda">
+          <div>
+            <a className={style.boton} href="#tienda">
             Compra ahora
           </a>
+          </div>
         </div>
       </div>
     </div>
