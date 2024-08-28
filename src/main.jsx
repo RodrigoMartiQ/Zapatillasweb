@@ -1,25 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/style.css";
-import Hero from "./sections/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
-import Trending from "./sections/trending/Trending";
-import Photomodel from "./sections/photomodel/Photomodel";
-import Arrivals from "./sections/arrivals/Arrivals";
-import Miembro from "./sections/miembro/Miembro";
 import Footer from "./components/footer/Footer";
-
+import Home from "./pages/Home";
+import Store from "./pages/Store";
+import Cart from "./pages/Cart";
+import Favorites from "./pages/Favorites";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <>
+  <Router>
     <Navbar />
-    <Hero />
-    <Trending />
-    <Photomodel/>
-    <Arrivals/>
-    <Miembro/>
-    <Footer/>
-  </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/store" element={<Store />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/favorites" element={<Favorites />} />
+    </Routes>
+    <Footer />
+  </Router>
 );
