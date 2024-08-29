@@ -1,9 +1,9 @@
 import React from "react";
-
+import style from "./Cart.module.css";
 const Cart = () =>{
     return (
         <div>
-            <h1>CARRITO</h1>
+            <h1 className={style.hola}>CARRITO</h1>
         </div>
         
         
