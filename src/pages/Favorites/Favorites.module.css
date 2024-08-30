@@ -1,6 +1,19 @@
-.hola{
-    font-size: 100px;
-    color: red;
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 85px;
-
-}
+  }
+  .hola{
+      margin-top: 50px;
+  }
+  .todo {
+    height: 100%;
+    width: 100%;
+    max-width: var(--maxwidth);
+    display: flex;
+    flex-wrap: wrap;
+    
+  }

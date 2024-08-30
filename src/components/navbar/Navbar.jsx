@@ -22,8 +22,8 @@ function Navbar() {
               <Link className={style.links} to="/Store">Tienda</Link> 
                 
              
-              <a className={style.links} href="#contacto">
-                Contacto
+              <a className={style.links} href="#ofertas">
+                Ofertas
               </a>
             </ul>
           </div>
