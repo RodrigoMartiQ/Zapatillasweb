@@ -4,11 +4,11 @@ import { Link, Outlet } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header  className={style.navbar}>
+    <header  className={style.navbar} >
       <div   className={style.container}>
         <div className={style.navlimite}>
         <div>
-          <Link className={style.marca} to= "/">
+          <Link  className={style.marca} to= "/" >
           CoolZap.
           </Link>
           </div>
